@@ -6,7 +6,7 @@ import palmerpenguins  # This package provides the Palmer Penguins dataset
 # Use the built-in function to load the Palmer Penguins dataset
 penguins_df = palmerpenguins.load_penguins()
 
-ui.page_opts(title="Pojetta's Palmer Penguins", fillable=True)
+ui.page_opts(title="Pojetta and the Penguin Plots", fillable=True)
 with ui.layout_columns():
 
     @render_plotly
